@@ -1,0 +1,31 @@
+{
+    "name": "vitorleonel/unique-slug",
+    "description": "Package for generate a unique slug in your application on an eloquent model with have slug column.",
+    "keywords": ["laravel", "slug"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Leonel",
+            "email": "falecom@vitorleonel.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "VitorLeonel\\UniqueSlug\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": {
+                "VitorLeonel\\UniqueSlug\\UniqueSlugServiceProvider"
+            },
+            "aliases": {
+                "UniqueSlug": "VitorLeonel\\UniqueSlug\\UniqueSlugFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
