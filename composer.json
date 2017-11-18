@@ -1,5 +1,5 @@
 {
-    "name": "vitorleonel/unique-slug",
+    "name": "vitorleonel/laravel-unique-slug",
     "description": "Package for generate a unique slug in your application on an eloquent model with have slug column.",
     "keywords": ["laravel", "slug"],
     "license": "MIT",
