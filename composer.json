@@ -19,9 +19,9 @@
     },
     "extra": {
         "laravel": {
-            "providers": {
+            "providers": [
                 "VitorLeonel\\UniqueSlug\\UniqueSlugServiceProvider"
-            },
+            ],
             "aliases": {
                 "UniqueSlug": "VitorLeonel\\UniqueSlug\\UniqueSlugFacade"
             }
