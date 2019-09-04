@@ -1,4 +1,4 @@
-# UniqueSlug for Laravel 5
+# UniqueSlug for Laravel 6
 
 Based on https://dotdev.co/creating-unique-title-slugs-with-laravel/
 
